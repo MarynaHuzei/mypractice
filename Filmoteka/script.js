@@ -88,7 +88,7 @@ const options = {
 
 const observer = new IntersectionObserver(handlerLoadMore, options);
 
-let page = 498;
+let page = 1;
 
 function serviceMovie(page = 1) {
   const BASE_URL = "https://api.themoviedb.org/3/";
